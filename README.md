@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-using-flexbox-and-css-variables-xwSCk8aqsK)
-- Live Site URL: [Add live site URL here](https://juanfeoru.github.io/nft-preview-card-component/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-using-flexbox-and-css-variables-xwSCk8aqsK)
+- Live Site URL: [Live site URL](https://juanfeoru.github.io/nft-preview-card-component/)
 
 ## My process
 
