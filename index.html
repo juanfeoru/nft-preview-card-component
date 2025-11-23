@@ -17,63 +17,79 @@
     />
 
     <title>Frontend Mentor | NFT preview card component</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <main class="card">
-      <header class="card__header">
-        <div class="card__image-wrapper">
+
+  <body
+    class="font-[outfit] bg-[var(--blue-950)] m-4 flex justify-center items-center min-h-screen overflow-y-hidden"
+  >
+    <main
+      class="bg-[var(--blue-900)] p-6 rounded-2xl shadow-2xl max-w-80 w-full"
+    >
+      <header class="card-header relative rounded-lg overflow-hidden">
+        <div>
           <img
             src="./images/image-equilibrium.jpg"
             alt="Equilibrium #3429 NFT image"
-            class="card__image"
+            class="block w-full h-auto"
             width="604"
             height="604"
           />
         </div>
       </header>
 
-      <section class="card__body">
-        <h1 class="card__title">Equilibrium #3429</h1>
-        <p class="card__description">
+      <section>
+        <h1
+          class="text-[var(--white)] my-5 font-semibold text-xl hover:text-[var(--cyan-400)] cursor-pointer"
+        >
+          Equilibrium #3429
+        </h1>
+        <p class="text-[var(--blue-500)] font-light mb-4">
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <section class="card__details">
-          <div class="card__price">
+        <section class="flex justify-between">
+          <div class="flex items-center">
             <img
               src="./images/icon-ethereum.svg"
               alt="Ethereum icon"
-              class="card__price-icon"
               width="11"
               height="18"
             />
-            <p class="card__price-value">0.041 ETH</p>
+            <p class="pl-2 text-[var(--cyan-400)] text-sm">0.041 ETH</p>
           </div>
 
-          <div class="card__time">
+          <div class="flex items-center">
             <img
               src="./images/icon-clock.svg"
               alt="Clock icon"
-              class="card__time-icon"
               width="17"
               height="17"
             />
-            <p class="card__time-left">3 days left</p>
+            <p class="text-[var(--blue-500)] pl-2 font-light text-sm">
+              3 days left
+            </p>
           </div>
         </section>
 
-        <footer class="card__footer">
+        <footer class="flex mt-4 border-t border-[var(--blue-800)]">
           <img
             src="./images/image-avatar.png"
             alt="Avatar of Jules Wyvern"
-            class="card__avatar"
+            class="w-8 h-8 rounded-full border border-[var(--white)] mt-4"
             width="132"
             height="132"
           />
-          <p class="card__creator">
-            Creation of <span class="card__creator-name">Jules Wyvern</span>
+          <p
+            class="flex items-center gap-1 pl-4 text-[var(--blue-500)] font-light mt-4 text-sm"
+          >
+            Creation of
+            <span
+              class="text-[var(--white)] hover:text-[var(--cyan-400)] cursor-pointer"
+              >Jules Wyvern</span
+            >
           </p>
         </footer>
       </section>
